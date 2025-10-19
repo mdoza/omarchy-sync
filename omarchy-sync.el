@@ -160,8 +160,9 @@ colors."
    omarchy-sync/waybar-config-file '(change attribute-change)
    #'omarchy-sync/theme-update-callback))
 
-(omarchy-sync)
-(omarchy-sync/start-file-watcher)
+(defun omarchy-sync/init ()
+  (omarchy-sync)
+  (omarchy-sync/start-file-watcher))
 
 (provide 'omarchy-sync)
 ;;; omarchy-sync.el ends here
