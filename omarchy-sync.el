@@ -161,6 +161,7 @@ colors."
    #'omarchy-sync/theme-update-callback))
 
 (defun omarchy-sync/init ()
+  (interactive)
   (omarchy-sync)
   (omarchy-sync/start-file-watcher))
 
