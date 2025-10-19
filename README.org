@@ -1,11 +1,9 @@
-#+title: Omarchy Emacs Sync
+#+title: Omarchy Sync Emacs
 #+author: Matt Doza
 #+email: mdoza@me.com
 #+date: 2025-10-18
 #+language: en
 #+options: toc:nil num:nil
-
-* Omarchy Sync
 
 Synchronize Emacs colors with the current [[https://omarchy.org][Omarchy]] theme. When the active [[https://omarchy.org][Omarchy]]
 theme changes [[https://github.com/mdoza/omarchy-sync][omarchy-sync]] detects the change and applies the colors changes.
