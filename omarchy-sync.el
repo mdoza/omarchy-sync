@@ -3,7 +3,11 @@
 ;; Copyright (C) 2025  Matt Doza
 ;;
 ;; Author: Matt Doza <mdoza@me.com>
+;; URL: https://github.com/mdoza/omarchy-sync
+;; Version: 20251019.2348
+;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: faces
+;; License: BSD-2-Clause
 ;;
 ;; Redistribution and use in source code form, with or without modification,
 ;; are permitted provided that the following conditions are met:
@@ -27,7 +31,13 @@
 ;; NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 ;; SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ;;
-;;;
+;;; Commentary:
+;;
+;; This package synchronizes Emacs colors with the current Omarchy theme by
+;; reading the current theme files and applying matching colors. This package
+;; automatically watches for themes changes an updates the Emacs faces.
+;;
+;;; Code:
 
 (defvar omarchy-sync/waybar-config-file
   (expand-file-name "~/.config/omarchy/current/theme/waybar.css")
